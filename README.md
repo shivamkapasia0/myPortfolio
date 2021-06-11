@@ -47,6 +47,16 @@ You can just install the [myPortfolio](https://login.salesforce.com/packaging/in
 ```
 For more help refer to [screenshots](https://github.com/shivamkapasia0/myPortfolio/tree/main/myPortfolio%20SS) folder for site setup.
 
+# TODO
+
+ - [X] Add Dark theme.
+ 
+ - [ ] To Add Skill Page & Project Page.
+ 
+ - [ ] To Make Website More Responsive.
+ 
+ - [ ] To Change Text & Add Animation Effects.
+ 
 MIT
 
 **Free Software, Hell Yeah!**
