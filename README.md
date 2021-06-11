@@ -1,6 +1,7 @@
 # Portfolio Website By LWC!
 
 Hi! this is simple portfolio website powered by LWC.
+Live demo : [https://shivamkapasia0.github.io/myPortfolio/](https://shivamkapasia0.github.io/myPortfolio/)
 
 # Screenshots
 ![Home Page](https://raw.githubusercontent.com/shivamkapasia0/myPortfolio/main/myPortfolio%20SS/HomePage.png)
@@ -21,7 +22,7 @@ You can just install the [myPortfolio](https://login.salesforce.com/packaging/in
 
  - Go to sites under Digital Experiences 
  - Select you existing template or create new one(Build Your Own Template) 
- - Drag myPortfolio to body  section from components 
+ - Drag myPortfolio LWC component to body  section from components 
  - Now go to theme section and click on Edit CSS
    and paste below code:
 
@@ -45,3 +46,7 @@ You can just install the [myPortfolio](https://login.salesforce.com/packaging/in
 }
 ```
 For more help refer to [screenshots](https://github.com/shivamkapasia0/myPortfolio/tree/main/myPortfolio%20SS) folder for site setup.
+
+MIT
+
+**Free Software, Hell Yeah!**
