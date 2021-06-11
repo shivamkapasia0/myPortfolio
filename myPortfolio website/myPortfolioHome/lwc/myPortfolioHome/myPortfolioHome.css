@@ -1,0 +1,71 @@
+.light {
+    background-color: var(--light-theme-backgroud-color, rgb(255, 255, 255));
+    color: #17262B;
+}
+
+.dark {
+    background-color: var(--dark-theme-background-color, black);
+    color: var(--dark-theme-text-color, ghostwhite);
+}
+.contactMe_btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #ff8578 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #ff8578 0%, #ff8b5f 100%);
+    transition: .4s;
+}
+
+
+.contactMe_btn:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+.color-customLight {
+    color: #8d81a5!important;
+}
+.color-customBlue {
+    color: #ff8578!important;
+}
+.color-customLight {
+    color: #8d81a5!important;
+}
+.font-weight-bold {
+    font-weight: 701!important;
+}
+.color-customLight {
+    color: #8d81a5!important;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+}
+.h1, h1 {
+    font-size: 3.5rem;
+}
+
+
+.h3, h3 {
+    font-size: 1.75rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.fa{
+    padding-top: 2rem;
+    color: #ff8578;
+}
+.fa:hover {
+    color: #ff6a6a;
+}

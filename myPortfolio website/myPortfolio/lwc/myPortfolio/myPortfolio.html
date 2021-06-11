@@ -1,0 +1,80 @@
+<template>
+<center>
+    <div class={themeClass}>
+	
+	<nav class=" " role="navigation">
+		<ul class="slds-grid">
+			<li class="slds-context-bar__item ">
+				<div class="slds-context-bar__label-action" title="Home" > <span class="slds-assistive-text">Home:</span> <span class="slds-truncate" title="Home" onclick={handleHomeClick}>Home</span> </div>
+			</li>
+            <li class="slds-context-bar__item ">
+				<div class="slds-context-bar__label-action" title="Skills" > <span class="slds-assistive-text">Skills:</span> <span class="slds-truncate" title="Skills" onclick={handleSkillsClick}>Skills</span></div>
+			</li>
+            <li class="slds-context-bar__item">
+				<a href="https://shivamkapasia.medium.com/" target="_blank" class="slds-context-bar__label-action" title="Blogs"> <span class="slds-assistive-text">Current Page:</span> <span class="slds-truncate" title="My Blogs on Medium" >Blogs</span> </a>
+			</li>
+            <li class="slds-context-bar__item">
+				<a href="https://github.com/shivamkapasia0" target="_blank" class="slds-context-bar__label-action" title="Projects"> <span class="slds-assistive-text">Current Page:</span> <span class="slds-truncate" title="My Projects on Github">Projects</span> </a>
+			</li>
+            <li class="slds-context-bar__item">
+				<div class="slds-context-bar__label-action" title="Contact Me"> <span class="slds-assistive-text">Current Page:</span> <span class="slds-truncate" title="Contact Me" onclick={handleContactMeClick}>Contact Me</span></div>
+			</li>
+            <li >
+                <template if:true={defaultThemeLight}>
+               <i class="slds-is-absolute fa fa-sun-o fa-3x" onclick={changeTheme}></i>
+                </template>
+                 <template if:false={defaultThemeLight}>
+               <i class="fa fa-moon-o fa-3x" onclick={changeTheme}></i>
+                </template>
+            </li>
+		</ul>
+	</nav>
+    </div>
+	
+	</center>
+    <!------------------------------- HOME --------------------------------------------->
+    <template if:true={showHomePage}>
+	<c-my-portfolio-home theme-class={themeClass}></c-my-portfolio-home>
+    </template>
+   <!--------------------------------- SKILLS --------------------------------------------->
+    <template if:true={showSkillsPage}>
+	<c-my-portfolio-skills-page theme-class={themeClass}></c-my-portfolio-skills-page>
+    </template>
+    <!--------------------------------- CONTACT ME --------------------------------------------->
+    <template if:true={showContactMePage}>
+	<c-my-portfolio-contact-me-page theme-class={themeClass}></c-my-portfolio-contact-me-page>
+    </template>
+   <!----------------------------------- FOOTER ------------------------------------>
+
+<footer>
+<div class="footer">
+<div class="row">
+    <ul>
+<li><a href="https://www.facebook.com/shivaayO07" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+<li><a href="https://github.com/shivamkapasia0" target="_blank"> <i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+<li><a href="https://instagram.com/shivaay0o7" target="_blank"><i class="fa fa-instagram"></i></a></li>
+<li><a href="https://twitter.com/shivaay0o7" target="_blank"><i class="fa fa-twitter"></i></a></li>
+</ul>
+<!-- <a href="#"><i class="fa fa-facebook-squar"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div> -->
+</div>
+
+<div class="row">
+<ul>
+<li><a href="https://github.com/shivamkapasia0" target="_blank">Source Code</a></li>
+<li><a href="mailto:kapasiashivam007@gmail.com" target="_blank">Contact Me</a></li>
+<!-- <li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li> -->
+</ul>
+</div>
+
+<div class="glow row">
+Made with <i class="fa fa-heart" aria-hidden="true"></i> by Shivam Kapasia
+</div>
+</div>
+</footer>
+
+</template>
