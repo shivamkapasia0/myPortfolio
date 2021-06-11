@@ -57,6 +57,7 @@ For more help refer to [screenshots](https://github.com/shivamkapasia0/myPortfol
  
  - [ ] To Change Text & Add Animation Effects.
  
-MIT
+# License
 
+### MIT
 **Free Software, Hell Yeah!**
