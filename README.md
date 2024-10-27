@@ -1,7 +1,7 @@
 # Portfolio Website By LWC!
 
 Hi! this is simple portfolio website powered by LWC.<br/>
-Live demo : [https://shivamkapasia0.github.io/myPortfolio/](https://shivamkapasia0.github.io/myPortfolio/)
+Live demo : [https://shivamkapasia0.github.io/myPortfolio/](https://kapasia-dev-ed.my.site.com/myPortfolio/s/)
 
 # Screenshots
 ![Home Page](https://raw.githubusercontent.com/shivamkapasia0/myPortfolio/main/myPortfolio%20SS/HomePage.png)
